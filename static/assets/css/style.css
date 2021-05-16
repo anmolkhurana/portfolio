@@ -1447,3 +1447,23 @@ blockquote {
     margin-right: 0;
   }
 }
+
+/*--------------------------------------------------------------
+# Tech stack logos
+--------------------------------------------------------------*/
+
+.img-language {
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+}
+
+.img-uiux {
+  border-radius: 4px;
+  padding: 5px;
+  width: 70px;
+}
+
+.img-vehicle-inventory {
+  width: 700px;
+}
