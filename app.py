@@ -6,10 +6,5 @@ app = Flask(__name__)
 def landing():
     return render_template('index.html')
 
-@app.route('/sendemail', methods=['POST'])
-def sendEmail():
-    print(request.form['name'])
-    return 'Email Sent!!! He will get back shortly'
-
 if __name__ == 'main':
     app.run(debug=True)
